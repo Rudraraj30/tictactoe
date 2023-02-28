@@ -1,0 +1,11 @@
+
+.title
+{
+              text-align: center;
+              text-shadow: 1px 1px 2px rgb(242, 202, 208);
+              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              font-weight: 600;
+              color:#2c4763;
+              font-size: 90px;
+              background-color:#8ea4b3;
+}

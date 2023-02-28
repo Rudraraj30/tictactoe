@@ -1,0 +1,61 @@
+body
+{
+  background: linear-gradient(rgb(236, 226, 226),rgb(187, 244, 250)); 
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.numbers > button
+{
+  background-color: rgb(241, 241, 218);
+  margin:10px;
+  
+}
+.numbers
+{
+  max-width: 150px;
+}
+.App
+{
+  max-width: 150px;
+  background-color: #59768a;
+}
+.info
+{ margin-left: 10%;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px rgb(242, 202, 208);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main
+{ 
+  
+  display: grid;
+  grid-gap: 90px;
+  grid-template-rows: repeat(3,100px);
+  grid-template-columns: repeat(3,100px);
+  justify-content: right;
+  
+  margin-top: 5px;
+ 
+
+}
+.canvas
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 100px;
+  
+}
+.start
+{
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(242, 202, 208);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color:#000000;
+  font-size: 70px;
+  margin-top: 3%;
+  color: cadetblue;
+  border: 0;
+
+}
